@@ -3,11 +3,11 @@
 
 int gcd(int 100, int 50) {
 	if (x == y)
-	 return x; // ƒ‹[ƒv‚ğ”²‚¯‚é
+	 return x; // ãƒ«ãƒ¼ãƒ—ã‚’æŠœã‘ã‚‹
 	if (x > y) 
-	 return gcd(x-y, y); // ƒ‹[ƒv‚ğ‘±‚¯‚é
+	 return gcd(x-y, y); // ãƒ«ãƒ¼ãƒ—ã‚’ç¶šã‘ã‚‹
 	if (x < y) 
-	 return gcd(x, y-x); // ƒ‹[ƒv‚ğ‘±‚¯‚é
+	 return gcd(x, y-x); // ãƒ«ãƒ¼ãƒ—ã‚’ç¶šã‘ã‚‹
 }
 
 int main ()
